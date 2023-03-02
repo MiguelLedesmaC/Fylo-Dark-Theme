@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+
+:root {
+  --BackgroundMain:hsl(218, 28%, 13%);
+  --BackgroundIntroMail:hsl(217, 28%, 15%);
+  --CyanGradiant:hsl(176, 68%, 64%);
+}
+
+body {
+  background-color: var(--BackgroundMain);
+}
+a {
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
+.btn-started {
+  position: relative;
+  overflow: hidden;
+}
+.btn-started:before {
+  position: absolute;
+  top: 0rem;
+  left: -100rem;
+  content: "";
+  display: grid;
+  place-content: center;
+  background: var(--CyanGradiant);
+  width: 100%;
+  border-radius: 25px;
+  height: 3.5rem;
+  z-index: -0;
+}
+
+.btn-started:hover::before {
+  background: var(--CyanGradiant);
+  animation: btnAnimation .3s ease-out both;
+}
+.link-about li a  {
+  text-decoration: none;
+}
+.svg-networks {
+  fill: hsl(198, 60%, 50%);
+}
+
+/* animations */
+@keyframes btnAnimation {
+    from {
+      left: -100rem;
+    }
+    to {
+      left: 0;
+    }
+}
+
+/* MediaQueries */
+@media (min-width:1329px) {
+    .quotes-end {
+      justify-content: end;
+    }
+}
