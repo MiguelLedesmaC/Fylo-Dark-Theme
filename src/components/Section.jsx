@@ -64,8 +64,8 @@ const SectionStarter = () => {
                       
           </article>
 
-          <article className='mb-20  text-White'>
-              <img src={imgTeams} alt="Image from people team" />
+          <article className='mb-20 flex flex-col justify-center items-center text-White'>
+              <img className='' src={imgTeams} alt="Image from people team" />
               <div>
                 <h4 className='text-xl font-bold font-Raleway mt-14 mb-8 text-center'>Stay productive, wherever you are</h4>
                 <p className='text-left text-[.96rem] mb-4'>
