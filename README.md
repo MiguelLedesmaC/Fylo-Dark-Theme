@@ -2,7 +2,7 @@
 
 ## Bievenido 👋
 
-## Descripcion
+## Descripción
 
 Landing page para Fylo hecha con React y tailwind.
 Es una landing page con un tema oscuro, creada con React y dandole estilos con tailwind. 
