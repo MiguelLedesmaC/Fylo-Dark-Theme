@@ -79,8 +79,8 @@ const SectionStarter = () => {
                 </div>
               </div>
           </article>
-          <article className='text-White'>
-              <img width={35} src={quotes} alt="Img quotes" />
+          <article className='text-White flex flex-col justify-center items-center'>
+              <img className='self-start' width={35} src={quotes} alt="Img quotes" />
               <div className='flex flex-wrap gap-7'>
               <Testimonial 
               name={'Satish Patel'}
@@ -96,7 +96,7 @@ const SectionStarter = () => {
               work={'Founder & CEO, Huddle'}/>
               </div>
               <div className='flex quotes-end'>
-                <img className='rotate-180 ml-[23rem]' width={35} src={quotes} alt="Img quotes" />
+                <img className='rotate-180 ml-[18.7rem]' width={35} src={quotes} alt="Img quotes" />
               </div>
               
           </article>
