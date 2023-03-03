@@ -45,6 +45,7 @@ a:hover {
 .link-about li a  {
   text-decoration: none;
 }
+
 .svg-networks {
   fill: hsl(198, 60%, 50%);
 }

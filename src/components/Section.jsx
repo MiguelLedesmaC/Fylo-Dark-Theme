@@ -63,7 +63,7 @@ const SectionStarter = () => {
                       
           </article>
 
-          <article className='mb-16 text-White'>
+          <article className='mb-20  text-White'>
               <img src={imgTeams} alt="Image from people team" />
               <div>
                 <h4 className='text-xl font-bold font-Raleway mt-14 mb-8 text-center'>Stay productive, wherever you are</h4>
@@ -73,8 +73,8 @@ const SectionStarter = () => {
                 <br />
                 Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.
                 </p>
-                <div >
-                <a className='flex items-center hover:underline w-[67%] md:w-[26.7%] hover:font-semibold gap-4 text-xl text-CyanGradient' href="#">See how Fylo works <img width={20} src={arrow} alt="Arrow for go link" /> </a>
+                <div className='hover:border-b-[2px] border-b-[2px] border-transparent hover:border-BlueGradient pb-2 w-[13.5rem]'>
+                <a className='flex items-center font-semibold hover:no-underline gap-4 text-xl text-CyanGradient' href="#">See how Fylo works <img  width={20} src={arrow} alt="Arrow for go link" /> </a>
                 </div>
               </div>
           </article>
