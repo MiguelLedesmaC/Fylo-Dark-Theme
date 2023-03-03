@@ -32,6 +32,7 @@ const SectionStarter = () => {
     const regExp = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g
     if(regExp.test(email)){
       setMessage('');
+      alert('We have registered your email')
     }else {
       setMessage('Invalid Email');
     }
